@@ -4,4 +4,4 @@ end
 
 def oxford_add
   nuarray = []
-  
+  array >>
