@@ -1,7 +1,11 @@
 def oxford_comma(array)
-  ["kiwi"].join
-end
 
-def oxford_add
-  array << "durian"
+  case array.length 
+end 	when 1
+  "#{array[0]}"
+when 2
+  array[0..1].join(" and ")
+else 
+  array[0...-1].join(", ") << ", and #{array[-1]}"
+end 
 end
